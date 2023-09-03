@@ -1,0 +1,47 @@
+.nav-link:hover{
+    color: #00BAC6;
+}
+
+.dropdown-item:hover{
+    color: #00BAC6;
+}
+
+#carouselExampleDark img{
+    height: 700px;
+}
+
+.carousel-caption h5, p{
+    color: white;
+}
+
+.card-text{
+    color: black;
+}
+
+div a{
+    text-decoration: none;
+}
+
+.lei{
+    text-align: center;
+}
+
+.conteudo{
+    margin: auto;
+    width: 50rem;
+}
+
+@media screen and (max-width: 950px) and (min-width: 380px){
+    #carouselExampleDark img{
+        height: 400px;
+    }
+
+    .conteudo{
+        margin: 0;
+        width: 100%;
+    }
+
+    .conteudo img{
+        width: 100%;
+    }
+}
